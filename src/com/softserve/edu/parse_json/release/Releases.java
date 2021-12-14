@@ -1,4 +1,6 @@
-package com.softserve.edu.parse_json;
+package com.softserve.edu.parse_json.release;
+
+import com.softserve.edu.parse_json.sprint.Sprint;
 
 import java.util.List;
 

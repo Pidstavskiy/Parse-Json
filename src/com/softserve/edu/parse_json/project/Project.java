@@ -1,4 +1,8 @@
-package com.softserve.edu.parse_json;
+package com.softserve.edu.parse_json.project;
+
+import com.softserve.edu.parse_json.report_file.ReportFile;
+import com.softserve.edu.parse_json.root_cause.RootCause;
+import com.softserve.edu.parse_json.epic.Epic;
 
 import java.util.List;
 
@@ -6,7 +10,7 @@ public class Project {
     private String name;
     private String releaseGroup;
     private List<ReportFile> reportFiles;
-    private List<ChildProject> childProjects;
+    private List<Project> childProjects;
     private List<RootCause> rootCauses;
     private List<Epic> epics;
 
@@ -34,7 +38,7 @@ public class Project {
         return reportFiles;
     }
 
-    public List<ChildProject> getChildProjects() {
+    public List<Project> getChildProjects() {
         return childProjects;
     }
 
@@ -58,7 +62,7 @@ public class Project {
         this.reportFiles = reportFiles;
     }
 
-    public void setChildProjects(List<ChildProject> childProjects) {
+    public void setChildProjects(List<Project> childProjects) {
         this.childProjects = childProjects;
     }
 

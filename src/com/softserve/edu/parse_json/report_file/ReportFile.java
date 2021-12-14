@@ -1,4 +1,4 @@
-package com.softserve.edu.parse_json;
+package com.softserve.edu.parse_json.report_file;
 
 public class ReportFile {
     private String fileLocation;

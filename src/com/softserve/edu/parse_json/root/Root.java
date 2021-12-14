@@ -1,4 +1,7 @@
-package com.softserve.edu.parse_json;
+package com.softserve.edu.parse_json.root;
+
+import com.softserve.edu.parse_json.project.Project;
+import com.softserve.edu.parse_json.release.ReleaseGroup;
 
 import java.util.List;
 
